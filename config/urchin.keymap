@@ -120,10 +120,10 @@
 		blue_layer {
 			label = "BT";
 			bindings = <
-			&bootloader &none       &none         &bt BT_CLR    &bt BT_SEL 0       &bt BT_SEL 0  &bt BT_CLR       &none        &none         &bootloader
-			&none       &none       &none         &none         &bt BT_SEL 1       &bt BT_SEL 1  &none            &none        &none         &none
-			&none       &none       &unstick      &out OUT_TOG  &bt BT_SEL 2       &bt BT_SEL 2  &out OUT_TOG     &unstick     &none         &none
-			                                      &none         &none              &none         &none
+			&bootloader     &none       &none         &bt BT_CLR    &bt BT_SEL 0       &bt BT_SEL 0  &bt BT_CLR       &none        &none         &bootloader
+			&none           &none       &none         &none         &bt BT_SEL 1       &bt BT_SEL 1  &none            &none        &none         &none
+			&studio_unlock  &none       &unstick      &out OUT_TOG  &bt BT_SEL 2       &bt BT_SEL 2  &out OUT_TOG     &unstick     &none         &studio_unlock
+			                                          &none         &none              &none         &none
 			>;
 		};
 	};
