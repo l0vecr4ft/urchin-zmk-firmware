@@ -59,7 +59,7 @@
 		compatible = "zmk,combos";
 		combo_capsword {
 			timeout-ms = <50>;
-			key-positions = <8 23>;
+			key-positions = <13 16>;
 			bindings = <&caps_word>;
 		};
 		combo_bluetooth {
@@ -101,7 +101,7 @@
 			&none       &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP  &none              &none         &none          &none        &none         &kp DEL
 			&kp LGUI    &kp LALT    &kp LCTRL     &kp LSHIFT    &none              &kp LEFT      &kp DOWN       &kp UP       &kp RIGHT     &none
 			&none       &kp C_PREV  &kp C_NEXT    &kp C_PP      &none              &kp HOME      &kp PG_DN      &kp PG_UP    &kp END       &none
-			                                      &none         &none              &none         &none
+			                                      &none         &none              &kp BSPC      &none
 			>;
 		};
 
