@@ -9,9 +9,9 @@ manifest:
       # kyek / duckyb
     - name: duckyb
       url-base: https://github.com/duckyb
-      # zmk-nice-oled
-    - name: mctechnology17
-      url-base: https://github.com/mctechnology17
+      # nice-view-battery
+    - name: infely
+      url-base: https://github.com/infely
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,8 +20,8 @@ manifest:
     - name: urchin-zmk-module
       remote: duckyb
       revision: main
-    - name: zmk-nice-oled
-      remote: mctechnology17
+    - name: nice-view-battery
+      remote: infely
       revision: main
   self:
     path: config
