@@ -1,0 +1,9 @@
+/*
+ * The nice_epaper.overlay from zmk-nice-oled defines the Sharp LS0XX display
+ * as 160x68 (landscape) without rotation. Without rotation=90, LVGL sees a
+ * landscape display while zmk-nice-oled positions widgets for portrait (68x160),
+ * causing all widgets with Y > 68 to render outside the physical screen.
+ */
+&nice_view {
+    rotation = <90>;
+};
